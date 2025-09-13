@@ -1,0 +1,32 @@
+_ create Student :
+
+POST /api/student
+    datas exemple : {
+    "name": "Alice Koffi",
+    "age": 21,
+    "email": "alice.koffi@example.com",
+    "classroom": "L2 Informatique",
+    "address": "Abidjan, Côte d'Ivoire"
+    }
+
+
+_ get students
+GET /api/students
+
+_ get one student
+GET /api/students/:idStudent
+
+_ update student 
+
+PUT /api/students/:idStudent
+    datas exemple : {
+        "name": "Alice Koffi",
+        "age": 21,
+        "email": "alice.koffi@example.com",
+        "classroom": "L2 Informatique",
+        "address": "Abidjan, Côte d'Ivoire"
+        }
+
+
+_ delete student
+DELETE /api/students/:idStudent
